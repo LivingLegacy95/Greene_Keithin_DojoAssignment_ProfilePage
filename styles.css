@@ -1,0 +1,126 @@
+/* utility classes */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+button{
+    background-color: #17a1b7;
+    color: white;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* nav classes */
+.header{
+    /* min-height: 50px;    */
+}
+
+.header-content{
+    /* width: 50%; */
+}
+.nav-menu{
+    list-style: none;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+}
+/* body classes */
+
+.body-container{
+    min-height: 50px;
+    /* background-color: red; */
+}
+main{
+    flex: 2;
+}
+
+aside{
+    flex: 1;
+    align-self: flex-start;
+}
+
+.profile{
+    background-color: blueviolet;
+}
+
+.pro-top{
+    height: 75px;
+    background-color: #17a1b7;
+    position: relative;
+}
+
+.pro-bottom{
+    padding: 75px 20px 20px;
+
+}
+.profile-name{
+    margin-top: 50px;
+}
+.tiny{
+    width: 20px;
+}
+.mb{
+    margin-bottom: 16px;
+}
+
+
+.profile-pic{
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.circle-image{
+    width: 50px;
+    border-radius: 50%;
+}
+.card{
+    border: 2px solid grey;
+    margin-bottom: 20px;
+}
+
+.padding-lg{
+    padding: 20px;
+}
+
+.padding-sm{
+    padding: 10px;
+}
+
+.card-header{
+    background-color: slategray;
+    color: white;
+}
+
+.border-top{
+    border-top: 2px solid grey;
+}
